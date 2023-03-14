@@ -673,10 +673,7 @@ label {
     word-spacing: 2px;
 }
 .fourBorder {
-  border: 8px solid #c9ff00!important;
-  /* border-radius: 0px!important; */
-  box-shadow: -8px 8px 0px #00b8ff;
-  /* background: #00b8ff!important; */
+    box-shadow: -8px 22px 0px blue, 8px -22px 0px #f4f5f0;
 }
 .threeBorder {
     border-top: 1px solid black!important;
