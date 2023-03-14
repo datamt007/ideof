@@ -674,9 +674,9 @@ label {
 }
 .fourBorder {
   border: 8px solid #c9ff00!important;
-  border-radius: 0px!important;
+  /* border-radius: 0px!important; */
   box-shadow: -8px 8px 0px #00b8ff;
-  background: #00b8ff!important;
+  /* background: #00b8ff!important; */
 }
 .threeBorder {
     border-top: 1px solid black!important;
