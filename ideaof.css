@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@200;400;700&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;800&family=Source+Sans+Pro:wght@300;900&family=Lora:wght@700&family=Rubik&family=Open+Sans:wght@200;400;500;700&family=Roboto:wght@200;400;500;700&family=Baumans:wght@200;400;500;700&family=Anton&display=swap");
 html {
   scroll-behavior: smooth;
 }
-
+.Roboto{font-family: Roboto, sans-serif!important;}
+.Lora{font-family: Lora, sans-serif!important;}
+.Rubik{font-family: Rubik, sans-serif!important;}
+.Lato{font-family: Lato, sans-serif!important;}
+.SourceSansP{font-family: Source Sans Pro, sans-serif!important;}
 body {
     background: #fff;
   }
@@ -694,6 +698,30 @@ label {
 /* my media */
 
 @media (min-width: 320px) {
+    .svmMainHl{
+        font-size: 48px;
+
+    }
+    .svmSubHl{
+        font-size: 32px;
+        letter-spacing: -1px;
+
+    }
+    .svmFeatureHL{
+        font-size: 24px;
+        margin-top: -49px;
+        margin-left: 77px;
+        text-align: left;
+        color: red;
+    }
+    .redBox{
+        background-color: red;
+        border: 8px solid white;
+        margin-top: -83px;
+        transform: rotate(358deg);
+        border-radius: 22px;
+        box-shadow: 3px 6px 22px #00000052;
+    }
     .developerSvg1{
         width: 211px;
         height: 276px;
@@ -965,6 +993,31 @@ label {
 }
 /* ENDS */
 @media (min-width: 768px) {
+    .svmMainHl{
+        font-size: 72px;
+
+    }
+    .svmSubHl{
+        font-size: 52px;
+        letter-spacing: -1px;
+
+    }
+    .svmFeatureHL{
+        font-size: 25px;
+        margin-top: -49px;
+        margin-left: 77px;
+        text-align: left;
+        color: red;
+    }
+    .redBox{
+        background-color: red;
+        border: 8px solid white;
+        margin-top: -83px;
+        transform: rotate(358deg);
+        border-radius: 22px;
+        box-shadow: 3px 6px 22px #00000052;
+    }
+
     .developerSvg1{
         width: 417px;
         height: 276px;
@@ -1101,6 +1154,13 @@ label {
 }
 /* ENDS */
 @media (min-width: 992px) {
+    .svmFeatureHL{
+        font-size: 25px;
+        margin-top: -49px;
+        margin-left: 77px;
+        text-align: left;
+        color: red;
+    }
     .developerSvg1{
         width: 260px;
     height: 276px;
