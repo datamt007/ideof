@@ -466,20 +466,18 @@ navbar-hide {
 
 .priceBtn {
   font-weight: 400 !important;
-  /* letter-spacing: 2px; */
-  /* border: 1px solid #52525200 !important; */
+    color: #fff;
   font-size: 18px;
-  font-family: "PT Sans Narrow", "Roboto", "Open Sans", sans-serif;
+  font-family: "Roboto", "Open Sans", sans-serif;
   /* text-align: center; */
-  min-width: 170px;
+  min-width: 100%;
   /* border-radius: 0px !important; */
   /* padding: 6px 5px; */
-  /* background-color: #3dd842!important; */
+  background-color: #51517c!important;
   /* color: #000 !important; */
   /* letter-spacing: 2px; */
   border-radius: 0px !important;
  
-  font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
 }
 
 .list-group-item {
@@ -536,49 +534,48 @@ navbar-hide {
     font-size: 18px;
     font-family: 'Oswald';
 }
-.form-control {
-  font-size: 14px !important;
+.datamtFormControl{
     font-weight: 400!important;
-    letter-spacing: 1px;
-    word-spacing: 3px;
     margin: 0 auto;
-    font-family: "Poppins", sans-serif;
-    background-color: #efe6ff00;
+    background-color: #fafafa;
     transition: 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    border-radius: 0px !important;
-    height: 40px;
-    border: 1px solid #0e0d0d21 !important;
-    /* border-bottom: 1px solid black!important;
+    border-radius: 6px !important;
+    height: 42px;
+    border: 1px solid #0e0d0d00 !important;
+    font-size: 19px !important;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    padding: 2px 9px;
+    color: black;
 }
 
 ::placeholder {
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 
-.form-control:focus {
+.datamtFormControl:focus {
   color: #262626;
   background-color: transparent!important;
-  border-color: #141414;
+  border-color: #141414!important;
   border-bottom: 2px solid #000;
   outline: 0;
   box-shadow: none;
 }
 
 label {
-  /* color: #262626 !important; */
-  font-size: 16px !important;
-  font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
-  font-weight: 400;
-
+   
+    color: #060606 !important;
+    font-size: 15px !important;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 500;
 }
-.fs_label{
+/* .fs_label{
   position: absolute;
   top: -24%;
   background: #fff;
   left: 5%;
   width: 33%;
   text-align: center;
-}
+} */
 .fs_LThumbImg{}
 .fs_MThumbImg{min-height: 160px;}
 .fs_SThumbImg{min-height: 80px;}
